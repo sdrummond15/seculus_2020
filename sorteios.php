@@ -1,3 +1,119 @@
+<?php
+
+$tipo = $_GET['sorteio'];
+
+if( (!isset($tipo) || trim($tipo) != 'regional') && (trim($tipo) != 'nacional')){
+
+    $tipo = 'regional';
+
+}
+
+
+
+
+
+$servername = "192.168.25.8";
+
+$username = "root";
+
+$password = "";
+
+$result = '';
+
+
+
+// Create connection
+
+$conn = new mysqli($servername, $username, $password,'db_show_pre');
+
+// Check connection
+
+if ($conn->connect_error) {
+
+    die("Connection failed: " . $conn->connect_error);
+
+}else {
+
+
+
+    $titulo = 'Informe a data do sorteio:';
+
+
+
+    $selectRegional = '';
+
+    if($tipo == 'regional') {
+
+        $sqlRegional = "select * from sweepstakes where type = '$tipo' group by type_zone";
+
+        $resRegional = $conn->query($sqlRegional);
+
+        $countRegional = 0;
+
+        $optionRegional = '';
+
+
+
+        while ($rowRegional = $resRegional->fetch_assoc()) {
+
+            $optionRegional.=  '<option value="' . $rowRegional["type_zone"] . '">' . $rowRegional["type_zone"] . '</option>';
+
+            $countRegional ++;
+
+        }
+
+        if($countRegional > 0){
+
+            $selectRegional = '<select name="type_zone" id="type_zone">' . $optionRegional . '</select>';
+
+        }
+
+
+
+        $titulo = 'Informe a regional e a data do sorteio:';
+
+
+
+    }
+
+
+
+    $sqlDate = "select * from sweepstakes where type = '$tipo' group by date_drawn";
+
+    $resDate = $conn->query($sqlDate);
+
+    $countDate = 0;
+
+    $optionDate = '';
+
+    $selectDate = '';
+
+    while ($rowDate = $resDate->fetch_assoc()) {
+
+        $optionDate.=  '<option value="' . $rowDate["date_drawn"] . '">' .
+
+                            implode('/',array_reverse(explode('-',$rowDate["date_drawn"]))) .
+
+                        '</option>';
+
+        $countDate ++;
+
+    }
+
+    if($countDate > 0){
+
+        $selectDate = '<select name="date_drawn" id="date_drawn" >' . $optionDate . '</select>';
+
+    }
+
+
+
+}
+
+?>
+
+
+
 <!DOCTYPE html>
 
 
@@ -48,11 +164,15 @@
 
 
 
-<body class="numero-sorte">
+<body class="sorteios">
 
 <div id="topo"></div>
 
 <header>
+
+
+
+    <header>
 
 
 
@@ -70,7 +190,7 @@
 
                     <li><a href="index.php#sorteio">Sorteios e Prêmios</a></li>
 
-                    <li><a href="#">Números da Sorte</a></li>
+                    <li><a href="index.php#resultados">Números da Sorte</a></li>
 
                     <li><a href="index.php#ganhadores">Resultados</a></li>
 
@@ -99,7 +219,7 @@
 
                 <li><a href="index.php#sorteio">Sorteios e Prêmios</a></li>
 
-                <li><a href="#">Números da Sorte</a></li>
+                <li><a href="index.php#resultados">Números da Sorte</a></li>
 
                 <li><a href="index.php#ganhadores">Resultados</a></li>
 
@@ -128,7 +248,7 @@
 
 
 
-<section id="numero_sorte">
+<section id="sorteios">
 
 
 
@@ -140,7 +260,7 @@
 
 
 
-            <h3>Digite o CNPJ:</h3>
+            <h3><?= $titulo ?></h3>
 
             <div>
 
@@ -148,9 +268,13 @@
 
                     <fieldset>
 
-                        <input type="text" name="search_cnpj" id="search_cnpj" placeholder="CNPJ" inputmode="numeric"/>
+                        <input type="hidden" name="type" id="type" value="<?= $tipo ?>"/>
 
-                        <input type="submit" id="btn-numero-sorte" class="btn-numero-sorte" value="Buscar"/>
+                        <?= $selectRegional ?>
+
+                        <?= $selectDate ?>
+
+                        <input type="submit" id="btn-sorteio" class="btn-sorteio" value="Buscar"/>
 
                     </fieldset>
 
@@ -160,7 +284,11 @@
 
 
 
-            <div id="result-numeros"></div>
+            <div id="ganhadores">
+
+
+
+            </div>
 
 
 
@@ -192,7 +320,6 @@
 
     <article>
 
-        
         <p>&copy; 2019 por Seculus da Amazônia S/A
 
             Promoção interna válida para parceiros comerciais da Seculus da Amazônia, não aberta ao público em geral. Consulte regras de participação.</p>
