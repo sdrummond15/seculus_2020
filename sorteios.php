@@ -12,7 +12,7 @@ if( (!isset($tipo) || trim($tipo) != 'regional') && (trim($tipo) != 'nacional'))
 
 
 
-$servername = "192.168.25.8";
+$servername = "localhost";
 
 $username = "root";
 
@@ -188,7 +188,7 @@ if ($conn->connect_error) {
 
                     <li><a href="index.php#periodo">Como Participar</a></li>
 
-                    <li><a href="index.php#sorteio">Sorteios e Prêmios</a></li>
+                    <li><a href="index.php#sorteio-nacional">Sorteios e Prêmios</a></li>
 
                     <li><a href="index.php#resultados">Números da Sorte</a></li>
 
@@ -217,7 +217,7 @@ if ($conn->connect_error) {
 
                 <li><a href="index.php#periodo">Como Participar</a></li>
 
-                <li><a href="index.php#sorteio">Sorteios e Prêmios</a></li>
+                <li><a href="index.php#sorteio-nacional">Sorteios e Prêmios</a></li>
 
                 <li><a href="index.php#resultados">Números da Sorte</a></li>
 

@@ -68,7 +68,7 @@
 
                     <li><a href="index.php#periodo">Como Participar</a></li>
 
-                    <li><a href="index.php#sorteio">Sorteios e Prêmios</a></li>
+                    <li><a href="index.php#sorteio-nacional">Sorteios e Prêmios</a></li>
 
                     <li><a href="#">Números da Sorte</a></li>
 
@@ -97,7 +97,7 @@
 
                 <li><a href="index.php#periodo">Como Participar</a></li>
 
-                <li><a href="index.php#sorteio">Sorteios e Prêmios</a></li>
+                <li><a href="index.php#sorteio-nacional">Sorteios e Prêmios</a></li>
 
                 <li><a href="#">Números da Sorte</a></li>
 

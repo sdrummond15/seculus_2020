@@ -37,7 +37,7 @@
                 <div class="main-menu">
                     <ul>
                         <li><a href="#periodo">Como Participar</a></li>
-                        <li><a href="#sorteio">Sorteios e Prêmios</a></li>
+                        <li><a href="#sorteio-nacional">Sorteios e Prêmios</a></li>
                         <li><a href="resultados.php">Números da Sorte</a></li>
                         <li><a href="#ganhadores">Resultados</a></li>
                         <li><a href="#contato">Fale Conosco</a></li>
@@ -50,7 +50,7 @@
                 </button>
                 <ul class="responsive">
                     <li><a href="#periodo">Como Participar</a></li>
-                    <li><a href="#sorteio">Sorteios e Prêmios</a></li>
+                    <li><a href="#sorteio-nacional">Sorteios e Prêmios</a></li>
                     <li><a href="resultados.php">Números da Sorte</a></li>
                     <li><a href="#ganhadores">Resultados</a></li>
                     <li><a href="#contato">Fale Conosco</a></li>
