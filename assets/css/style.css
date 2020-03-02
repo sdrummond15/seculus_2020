@@ -1,11 +1,7 @@
 @font-face {
     font-family: 'Antonio';
     src: url('fonts/Antonio-Regular.eot');
-    src: url('fonts/Antonio-Regular.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Antonio-Regular.woff2') format('woff2'),
-        url('fonts/Antonio-Regular.woff') format('woff'),
-        url('fonts/Antonio-Regular.ttf') format('truetype'),
-        url('fonts/Antonio-Regular.svg#Antonio-Regular') format('svg');
+    src: url('fonts/Antonio-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/Antonio-Regular.woff2') format('woff2'), url('fonts/Antonio-Regular.woff') format('woff'), url('fonts/Antonio-Regular.ttf') format('truetype'), url('fonts/Antonio-Regular.svg#Antonio-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -13,11 +9,7 @@
 @font-face {
     font-family: 'Antonio';
     src: url('fonts/Antonio-Light.eot');
-    src: url('fonts/Antonio-Light.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Antonio-Light.woff2') format('woff2'),
-        url('fonts/Antonio-Light.woff') format('woff'),
-        url('fonts/Antonio-Light.ttf') format('truetype'),
-        url('fonts/Antonio-Light.svg#Antonio-Light') format('svg');
+    src: url('fonts/Antonio-Light.eot?#iefix') format('embedded-opentype'), url('fonts/Antonio-Light.woff2') format('woff2'), url('fonts/Antonio-Light.woff') format('woff'), url('fonts/Antonio-Light.ttf') format('truetype'), url('fonts/Antonio-Light.svg#Antonio-Light') format('svg');
     font-weight: 300;
     font-style: normal;
 }
@@ -25,11 +17,7 @@
 @font-face {
     font-family: 'Antonio';
     src: url('fonts/Antonio-Bold.eot');
-    src: url('fonts/Antonio-Bold.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Antonio-Bold.woff2') format('woff2'),
-        url('fonts/Antonio-Bold.woff') format('woff'),
-        url('fonts/Antonio-Bold.ttf') format('truetype'),
-        url('fonts/Antonio-Bold.svg#Antonio-Bold') format('svg');
+    src: url('fonts/Antonio-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/Antonio-Bold.woff2') format('woff2'), url('fonts/Antonio-Bold.woff') format('woff'), url('fonts/Antonio-Bold.ttf') format('truetype'), url('fonts/Antonio-Bold.svg#Antonio-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
 }
@@ -43,7 +31,7 @@ body {
 }
 
 a {
-    color: #FFF;
+    color: #fff200;
     text-decoration: none;
 }
 
@@ -54,13 +42,13 @@ a:hover {
 /*** HEADER ***/
 
 #header {
-    background: rgba(116, 28, 31, 1);
-    background: -moz-linear-gradient(top, rgba(116, 28, 31, 1) 0%, rgba(63, 23, 26, 1) 26%, rgba(34, 20, 20, 1) 71%, rgba(68, 25, 26, 1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(116, 28, 31, 1)), color-stop(26%, rgba(63, 23, 26, 1)), color-stop(71%, rgba(34, 20, 20, 1)), color-stop(100%, rgba(68, 25, 26, 1)));
-    background: -webkit-linear-gradient(top, rgba(116, 28, 31, 1) 0%, rgba(63, 23, 26, 1) 26%, rgba(34, 20, 20, 1) 71%, rgba(68, 25, 26, 1) 100%);
-    background: -o-linear-gradient(top, rgba(116, 28, 31, 1) 0%, rgba(63, 23, 26, 1) 26%, rgba(34, 20, 20, 1) 71%, rgba(68, 25, 26, 1) 100%);
-    background: -ms-linear-gradient(top, rgba(116, 28, 31, 1) 0%, rgba(63, 23, 26, 1) 26%, rgba(34, 20, 20, 1) 71%, rgba(68, 25, 26, 1) 100%);
-    background: linear-gradient(to bottom, rgba(116, 28, 31, 1) 0%, rgba(63, 23, 26, 1) 26%, rgba(34, 20, 20, 1) 71%, rgba(68, 25, 26, 1) 100%);
+    background: rgba(0, 15, 41, 1);
+    background: -moz-linear-gradient(top, rgba(0, 15, 41, 1) 0%, rgba(0, 7, 20, 1) 18%, rgba(2, 46, 74, 1) 30%, rgba(2, 46, 74, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0, 15, 41, 1)), color-stop(18%, rgba(0, 7, 20, 1)), color-stop(30%, rgba(2, 46, 74, 1)), color-stop(100%, rgba(2, 46, 74, 1)));
+    background: -webkit-linear-gradient(top, rgba(0, 15, 41, 1) 0%, rgba(0, 7, 20, 1) 18%, rgba(2, 46, 74, 1) 30%, rgba(2, 46, 74, 1) 100%);
+    background: -o-linear-gradient(top, rgba(0, 15, 41, 1) 0%, rgba(0, 7, 20, 1) 18%, rgba(2, 46, 74, 1) 30%, rgba(2, 46, 74, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(0, 15, 41, 1) 0%, rgba(0, 7, 20, 1) 18%, rgba(2, 46, 74, 1) 30%, rgba(2, 46, 74, 1) 100%);
+    background: linear-gradient(to bottom, rgba(0, 15, 41, 1) 0%, rgba(0, 7, 20, 1) 18%, rgba(2, 46, 74, 1) 30%, rgba(2, 46, 74, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#741c1f', endColorstr='#44191a', GradientType=0);
     width: 100%;
     display: table;
@@ -104,18 +92,18 @@ a:hover {
     text-transform: uppercase;
     display: table;
     transition: all 300ms;
-    font-size: 18px;
+    font-size: 20px;
     border-bottom: 1px solid transparent;
 }
 
 .main-menu ul li a:hover {
-    color: #FFF;
-    border-bottom: 1px solid #FFF;
+    color: #ffc600;
+    border-bottom: 1px solid #ffc600;
     text-decoration: none;
 }
 
 .main-menu ul li a.active {
-    border-bottom: 1px solid #FFF;
+    border-bottom: 1px solid #ffc600;
     text-decoration: none;
 }
 
@@ -179,24 +167,17 @@ a:hover {
 }
 
 .marcas {
-    background: rgba(49, 23, 24, 1);
-    background: -moz-linear-gradient(left, rgba(49, 23, 24, 1) 0%, rgba(64, 23, 26, 1) 5%, rgba(208, 106, 73, 1) 50%, rgba(64, 23, 26, 1) 95%, rgba(49, 23, 24, 1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(49, 23, 24, 1)), color-stop(5%, rgba(64, 23, 26, 1)), color-stop(50%, rgba(208, 106, 73, 1)), color-stop(95%, rgba(64, 23, 26, 1)), color-stop(100%, rgba(49, 23, 24, 1)));
-    background: -webkit-linear-gradient(left, rgba(49, 23, 24, 1) 0%, rgba(64, 23, 26, 1) 5%, rgba(208, 106, 73, 1) 50%, rgba(64, 23, 26, 1) 95%, rgba(49, 23, 24, 1) 100%);
-    background: -o-linear-gradient(left, rgba(49, 23, 24, 1) 0%, rgba(64, 23, 26, 1) 5%, rgba(208, 106, 73, 1) 50%, rgba(64, 23, 26, 1) 95%, rgba(49, 23, 24, 1) 100%);
-    background: -ms-linear-gradient(left, rgba(49, 23, 24, 1) 0%, rgba(64, 23, 26, 1) 5%, rgba(208, 106, 73, 1) 50%, rgba(64, 23, 26, 1) 95%, rgba(49, 23, 24, 1) 100%);
-    background: linear-gradient(to right, rgba(49, 23, 24, 1) 0%, rgba(64, 23, 26, 1) 5%, rgba(208, 106, 73, 1) 50%, rgba(64, 23, 26, 1) 95%, rgba(49, 23, 24, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#311718', endColorstr='#311718', GradientType=1);
+    background-color: #022e4a;
     width: 100%;
     display: table;
 }
 
-.marcas > article {
+.marcas>article {
     width: 100%;
     margin: 150px auto 60px auto;
 }
 
-.marcas > article ul {
+.marcas>article ul {
     display: table;
     margin: auto;
     padding: 0;
@@ -204,7 +185,7 @@ a:hover {
     text-align: center;
 }
 
-.marcas > article ul li {
+.marcas>article ul li {
     display: inline-block;
     padding: 10px 30px;
 }
@@ -212,301 +193,319 @@ a:hover {
 .periodo {
     width: 100%;
     display: table;
-    background: rgba(34, 20, 20, 1);
-    background: -moz-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(34, 20, 20, 1)), color-stop(50%, rgba(63, 23, 26, 1)), color-stop(100%, rgba(34, 20, 20, 1)));
-    background: -webkit-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
-    background: -o-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
-    background: -ms-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
-    background: linear-gradient(to right, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#221414', endColorstr='#221414', GradientType=1);
+    background-color: #011828;
 }
 
-.periodo > article {
+.periodo>article {
+    width: 1170px;
+    margin: 60px auto 80px auto;
+}
+
+.periodo>article h1 {
+    text-align: center;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: bold;
+    max-width: 890px;
+    margin: 0 auto 35px auto;
+}
+
+.periodo>article h2 {
+    text-align: center;
+    color: #fff200;
+    font-size: 36px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.sorteio {
+    background: rgba(62, 121, 189, 1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(62, 121, 189, 1) 0%, rgba(2, 46, 74, 1) 70%, rgba(2, 46, 74, 1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(62, 121, 189, 1)), color-stop(70%, rgba(2, 46, 74, 1)), color-stop(100%, rgba(2, 46, 74, 1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(62, 121, 189, 1) 0%, rgba(2, 46, 74, 1) 70%, rgba(2, 46, 74, 1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(62, 121, 189, 1) 0%, rgba(2, 46, 74, 1) 70%, rgba(2, 46, 74, 1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(62, 121, 189, 1) 0%, rgba(2, 46, 74, 1) 70%, rgba(2, 46, 74, 1) 100%);
+    background: radial-gradient(ellipse at center, rgba(62, 121, 189, 1) 0%, rgba(2, 46, 74, 1) 70%, rgba(2, 46, 74, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e79bd', endColorstr='#022e4a', GradientType=1);
+    width: 100%;
+    display: table;
+}
+
+.sorteio h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #262262;
+    background-color: #fff200;
+    font-size: 50px;
+    padding: 20px 0;
+    text-shadow: 2px 2px 0 #FFF;
+    font-weight: bold;
+}
+
+.sorteio>article {
+    width: 1170px;
+    margin: auto;
+    position: relative;
+}
+
+.data-sorteio-1 {
+    position: absolute;
+    padding: 15px 30px;
+    color: #fff200;
+    background-color: #66a8de;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-size: 36px;
+    left: 50%;
+    top: -5px;
+    transform: translateX(-105%) rotate(3deg);
+}
+
+.data-sorteio-2 {
+    position: absolute;
+    padding: 15px 30px;
+    color: #fff200;
+    background-color: #2e3192;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-size: 36px;
+    left: 50%;
+    top: 5px;
+    transform: translateX(5%) rotate(-4deg);
+}
+
+.data-sorteio-1 p, .data-sorteio-2 p {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+}
+
+.argo {
+    position: absolute;
+    top: 150px;
+    left: 0;
+}
+
+.argo p {
+    font-size: 50px;
+    color: #fff200;
+    transform: rotate(-4deg);
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+}
+
+.argo p b {
+    font-size: 50px;
+}
+
+.img-sorteio {
+    padding: 150px 0 0 0;
+}
+
+.img-sorteio img {
+    margin: auto;
+    display: table;
+}
+
+.box-premios-nacionais {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.box-premios-nacionais .sorteio-mais {
+    background-color: #fff200;
+    display: table;
+    padding: 3px 40px;
+    color: #000;
+    font-size: 24px;
+    border-radius: 30px 0 0 30px;
+    width: 200px;
+    position: absolute;
+    font-weight: bold;
+}
+.box-premios-nacionais .sorteio-mais p {
+    margin: 0;
+}
+.box-premios-nacionais ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px 140px;
+    display: table;
+    width: 100%;
+}
+
+.box-premios-nacionais ul li {
+    height: 280px;
+    width: calc(25% + 35px);
+    background-color: #FFF;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    float: left;
+    margin: 0px -40px;
+    position: relative;
+}
+
+.box-premios-nacionais ul li .img-premio-nacional {
+    width: 100%;
+    height: calc(100% - 58px);
+    display: table;
+    background-size: 60% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box-premios-nacionais ul li span {
+    background-color: #fff200;
+    width: 80%;
+    display: table;
+    border-top: 2px solid #022e4a;
+    text-align: center;
+    padding: 10px 0;
+    color: #000;
+    font-size: 24px;
+}
+
+
+.data-sorteio-quinzenal-1 {
+    position: absolute;
+    padding: 15px 30px;
+    color: #fff200;
+    background-color: #66a8de;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-size: 36px;
+    left: 10px;
+    top: -5px;
+    transform: rotate(3deg);
+}
+
+.data-sorteio-quinzenal-2 {
+    position: absolute;
+    padding: 15px 30px;
+    color: #fff200;
+    background-color: #4070b7;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-size: 36px;
+    left: 50%;
+    top: -5px;
+    transform: translateX(-65%) rotate(3deg);
+}
+
+.data-sorteio-quinzenal-3 {
+    position: absolute;
+    padding: 15px 30px;
+    color: #fff200;
+    background-color: #2e3192;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-size: 36px;
+    right: 10px;
+    top: -5px;
+    transform: rotate(3deg);
+}
+
+.data-sorteio-quinzenal-1 p, 
+.data-sorteio-quinzenal-2 p,
+.data-sorteio-quinzenal-3 p {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+}
+
+.box-premios-quinzenais {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.box-premios-quinzenais ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px 40px;
+    display: table;
+    width: 100%;
+}
+
+.box-premios-quinzenais ul li {
+    height: 280px;
+    width: calc(20% + 50px);
+    background-color: #FFF;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    float: left;
+    margin: 0px -34px;
+    position: relative;
+}
+
+.box-premios-quinzenais ul li .img-premio-quinzenal {
+    width: 100%;
+    height: calc(100% - 52px);
+    display: table;
+    background-size: 60% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box-premios-quinzenais ul li span {
+    background-color: #fff200;
+    width: 80%;
+    display: table;
+    border-top: 2px solid #022e4a;
+    text-align: center;
+    padding: 10px 0;
+    color: #000;
+    font-size: 20px;
+}
+
+.ganhadores {
+    background-color: #011828;
+    width: 100%;
+    display: table;
+}
+
+.ganhadores>article {
     width: 1170px;
     margin: 60px auto;
 }
 
-.periodo > article h1 {
-    text-align: center;
-    color: #FFF;
-    font-size: 40px;
-    margin-bottom: 35px;
-}
-
-.periodo > article h2 {
-    text-align: center;
-    color: #FFF;
-    font-size: 36px;
-    margin-bottom: 35px;
-}
-
-#participar ul {
-    width: 100%;
-    display: table;
-    padding: 0;
-    list-style: none;
-    margin-bottom: 40px;
-}
-
-#participar ul li {
-    width: 30%;
-    display: inline-block;
-    vertical-align: top;
-}
-
-#participar ul li.next {
-    width: calc(5% - 10px);
-    margin: 50px 5px 0 5px;
-}
-
-#participar ul li img {
-    display: table;
-    margin: 0 auto 20px auto;
-    max-width: 90%;
-}
-
-#participar ul li span {
-    padding: 0 20px;
-    color: #FFF;
-    text-align: center;
-    font-size: 24px;
-    display: block;
-}
-
-.sorteio {
-    background: rgba(34, 20, 20, 1);
-    background: -moz-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(34, 20, 20, 1)), color-stop(50%, rgba(63, 23, 26, 1)), color-stop(100%, rgba(34, 20, 20, 1)));
-    background: -webkit-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
-    background: -o-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
-    background: -ms-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
-    background: linear-gradient(to right, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#221414', endColorstr='#221414', GradientType=1);
-    width: 100%;
-    display: table;
-}
-
-.sorteio > article {
-    width: 1170px;
-    margin: 40px auto;
-}
-
-.sorteio-semana h2 {
-    text-transform: uppercase;
-    text-align: center;
-    color: #262424;
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.sorteio-semana {
-    width: 100%;
-    padding: 20px 30px;
-    display: table;
-    border-radius: 20px;
-    margin-bottom: 20px;
-    background: rgba(223, 146, 46, 1);
-    background: -moz-linear-gradient(top, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(223, 146, 46, 1)), color-stop(15%, rgba(245, 236, 73, 1)), color-stop(85%, rgba(245, 236, 73, 1)), color-stop(100%, rgba(223, 146, 46, 1)));
-    background: -webkit-linear-gradient(top, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
-    background: -o-linear-gradient(top, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
-    background: -ms-linear-gradient(top, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
-    background: linear-gradient(to bottom, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#df922e', endColorstr='#df922e', GradientType=0);
-}
-
-.sorteio-semana img {
-    float: left;
-    margin-right: 20px;
-    max-width: 100%;
-}
-
-.sorteio-semana .box-info {
-    display: block;
-}
-
-.sorteio-semana .box-info h3 {
-    text-align: center;
-    color: #262424;
-    margin: 10px 0;
-    font-weight: bold;
-}
-
-.sorteio-semana .box-info ul {
-    display: table;
-    padding: 0;
-    list-style: none;
-    margin: 20px auto 0 auto;
-}
-
-.sorteio-semana .box-info ul li::before {
-    content: "•"; /* Insert content that looks like bullets */
-    padding-right: 10px;
-}
-
-.sorteio-semana .box-info ul li {
-    display: inline-block;
-    margin-left: 10px;
-    font-size: 24px;
-    font-weight: bold;
-    color: #262424;
-}
-
-.sorteio-nacional {
-    width: 100%;
-    padding: 20px 30px;
-    display: table;
-    border-radius: 20px;
-    margin-bottom: 60px;
-    background: rgba(223, 146, 46, 1);
-    background: -moz-linear-gradient(top, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(223, 146, 46, 1)), color-stop(15%, rgba(245, 236, 73, 1)), color-stop(85%, rgba(245, 236, 73, 1)), color-stop(100%, rgba(223, 146, 46, 1)));
-    background: -webkit-linear-gradient(top, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
-    background: -o-linear-gradient(top, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
-    background: -ms-linear-gradient(top, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
-    background: linear-gradient(to bottom, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#df922e', endColorstr='#df922e', GradientType=0);
-}
-
-.sorteio-nacional h2 {
-    text-transform: uppercase;
-    text-align: center;
-    color: #262424;
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.sorteio-nacional .box-info {
-    display: inline-block;
-    width: 25%;
-    vertical-align: top;
-}
-
-.sorteio-nacional .box-info h3 {
-    text-align: center;
-    color: #262424;
-    margin: 10px 0;
-    font-weight: bold;
-}
-
-.sorteio-nacional .box-info ul {
-    display: table;
-    padding: 0;
-    list-style: none;
-    margin: 20px auto 0 auto;
-}
-
-.sorteio-nacional .box-info ul li::before {
-    content: "•"; /* Insert content that looks like bullets */
-    padding-right: 10px;
-}
-
-.sorteio-nacional .box-info ul li {
-    margin-left: 10px;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    color: #262424;
-}
-
-.sorteio-nacional .imagem-sorteio {
-    display: inline-block;
-    width: 50%;
-    vertical-align: top;
-    text-align: center;
-}
-
-.sorteio-nacional .imagem-sorteio img {
-    max-width: 100%;
-}
-
-.sorteio .linha {
-    width: 90%;
-    height: 5px;
-    display: table;
-    margin: 20px auto;
-    background: rgba(0, 0, 0, 0);
-    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0.8)), color-stop(50%, rgba(255, 255, 255, 0.8)), color-stop(75%, rgba(255, 255, 255, 0.8)), color-stop(100%, rgba(34, 20, 20, 0)));
-    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
-    background: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
-    background: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
-    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#221414', GradientType=1);
-}
-
-.ganhadores {
-    background: rgba(34, 20, 20, 1);
-    background: -moz-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(34, 20, 20, 1)), color-stop(50%, rgba(63, 23, 26, 1)), color-stop(100%, rgba(34, 20, 20, 1)));
-    background: -webkit-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
-    background: -o-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
-    background: -ms-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
-    background: linear-gradient(to right, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#221414', endColorstr='#221414', GradientType=1);
-    width: 100%;
-    display: table;
-}
-
-.ganhadores > article {
-    width: 1170px;
-    margin: 20px auto;
-}
-
 .ganhadores h1 {
-    text-transform: uppercase;
     text-align: center;
-    color: #F2CC30;
-    font-size: 36px;
-    margin-bottom: 20px;
+    color: #fff200;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 auto 35px auto;
 }
 
 .ganhadores ul {
     display: table;
+    width: 100%;
     padding: 0;
     list-style: none;
     margin: 0 auto 60px auto;
 }
 
 .ganhadores ul li {
-    display: inline-block;
-    margin: 10px 40px;
+	display: table;
+    width: 100%;
+    margin: 10px 0;
 }
 
 .ganhadores ul li a.btn-ganhadores {
-    background-color: transparent;
-    padding: 20px 30px;
-    border: 2px solid #F2CC30;
-    border-radius: 10px;
-    font-size: 30px;
+    background-color: #fff200;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 36px;
+    font-weight: bold;
     text-transform: uppercase;
-    color: #F2CC30;
+    color: #262262;
     cursor: pointer;
     display: table;
+    text-align: center;
 }
 
 .ganhadores ul li a.btn-ganhadores:hover {
-    background-color: #F2CC30;
-    color: #3F171A;
+    background-color: #ffc600;
     text-decoration: none;
-}
-
-.linha {
-    width: 90%;
-    height: 5px;
-    display: table;
-    margin: 20px auto;
-    background: rgba(0, 0, 0, 0);
-    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0.8)), color-stop(50%, rgba(255, 255, 255, 0.8)), color-stop(75%, rgba(255, 255, 255, 0.8)), color-stop(100%, rgba(34, 20, 20, 0)));
-    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
-    background: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
-    background: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
-    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#221414', GradientType=1);
 }
 
 .loading {
@@ -561,7 +560,7 @@ div.enviado {
     transition: linear 100ms;
 }
 
-div.enviado > div.fechar {
+div.enviado>div.fechar {
     padding: 5px;
     text-align: right;
     display: table;
@@ -569,7 +568,7 @@ div.enviado > div.fechar {
     line-height: 1;
 }
 
-div.enviado > div.fechar i {
+div.enviado>div.fechar i {
     cursor: pointer;
 }
 
@@ -591,21 +590,13 @@ footer {
     width: 100%;
     display: table;
     margin: 0 auto;
-    height: 30px;
-    background: rgba(223, 146, 46, 1);
-    background: -moz-linear-gradient(left, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(223, 146, 46, 1)), color-stop(15%, rgba(245, 236, 73, 1)), color-stop(85%, rgba(245, 236, 73, 1)), color-stop(100%, rgba(223, 146, 46, 1)));
-    background: -webkit-linear-gradient(left, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
-    background: -o-linear-gradient(left, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
-    background: -ms-linear-gradient(left, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
-    background: linear-gradient(to right, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#df922e', endColorstr='#df922e', GradientType=1);
+    background-color: #011828;
 }
 
 footer p {
     text-align: center;
     padding: 10px 10px;
-    color: #000;
+    color: #FFF;
 }
 
 footer h3 {
@@ -629,54 +620,50 @@ footer h3 {
     display: table;
 }
 
-.contato,
-.numero-sorte,
-.sorteios {
-    background: rgba(34, 20, 20, 1);
-    background: -moz-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(34, 20, 20, 1)), color-stop(50%, rgba(63, 23, 26, 1)), color-stop(100%, rgba(34, 20, 20, 1)));
-    background: -webkit-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
-    background: -o-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
-    background: -ms-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
-    background: linear-gradient(to right, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#221414', endColorstr='#221414', GradientType=1);
+.contato, .numero-sorte, .sorteios {
+    background: rgba(62, 121, 189, 1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(62, 121, 189, 1) 0%, rgba(2, 46, 74, 1) 70%, rgba(2, 46, 74, 1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(62, 121, 189, 1)), color-stop(70%, rgba(2, 46, 74, 1)), color-stop(100%, rgba(2, 46, 74, 1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(62, 121, 189, 1) 0%, rgba(2, 46, 74, 1) 70%, rgba(2, 46, 74, 1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(62, 121, 189, 1) 0%, rgba(2, 46, 74, 1) 70%, rgba(2, 46, 74, 1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(62, 121, 189, 1) 0%, rgba(2, 46, 74, 1) 70%, rgba(2, 46, 74, 1) 100%);
+    background: radial-gradient(ellipse at center, rgba(62, 121, 189, 1) 0%, rgba(2, 46, 74, 1) 70%, rgba(2, 46, 74, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e79bd', endColorstr='#022e4a', GradientType=1);
     width: 100%;
     display: table;
 }
 
-.contato article,
-.numero-sorte article {
+.contato article, .numero-sorte article {
     width: 1170px;
     margin: 80px auto;
 }
 
 .contato article p {
     text-align: center;
-    color: #F2CC30;
+    color: #fff200;
     font-size: 30px;
 }
 
 .contato article h3 {
     text-transform: uppercase;
     text-align: center;
-    color: #F2CC30;
+    color: #FFF;
     font-size: 36px;
     margin-bottom: 20px;
 }
 
-.contato article > div fieldset input {
+.contato article>div fieldset input {
     width: 100%;
     padding: 5px 12px;
-    border: 1px solid #F2CC30;
     font-size: 15px;
-    color: #F2CC30;
+    color: #000;
     font-family: 'fira_sans_extra_condensedRg';
     margin-bottom: 5px;
-    background-color: transparent;
+    background-color: #FFF;
+    border: 0;
 }
 
-.contato article > div fieldset,
-.numero-sorte article > div fieldset {
+.contato article>div fieldset, .numero-sorte article>div fieldset {
     max-width: 700px;
     margin: auto;
 }
@@ -684,52 +671,51 @@ footer h3 {
 .numero-sorte h3 {
     text-transform: uppercase;
     text-align: center;
-    color: #F2CC30;
+    color: #fff200;
     font-size: 36px;
     margin-bottom: 20px;
 }
 
 ::placeholder {
-    color: #F2CC30;
-    opacity: 1; /* Firefox */
+    color: #666;
+    opacity: 1;
+    /* Firefox */
     font-family: Arial;
 }
 
-.contato article > div fieldset textarea {
+.contato article>div fieldset textarea {
     width: 100%;
     padding: 5px 12px;
-    border: 1px solid #F2CC30;
     font-size: 15px;
-    color: #F2CC30;
-    font-family: 'fira_sans_extra_condensedRg';
+    color: #000;
+    font-family: 'Antonio';
     margin-bottom: 5px;
     height: 140px;
-    background-color: transparent;
+    background-color: #FFF;
+    border: 0;
 }
 
 .resultado article {
     margin: 80px auto;
 }
 
-.contato .btn-contato,
-.numero-sorte .btn-numero-sorte {
-    background-color: transparent;
+.contato .btn-contato, .numero-sorte .btn-numero-sorte {
+    background-color: #fff200;
     padding: 5px 20px;
-    border: 1px solid #F2CC30;
+    border: 0;
     border-radius: 5px;
     font-size: 15px;
     text-transform: uppercase;
-    color: #F2CC30;
+    color: #262262;
     cursor: pointer;
-    font-family: Arial;
+    font-family: 'Antonio';
     width: auto;
     float: right;
+    font-weight: bold;
 }
 
-.contato .btn-contato:hover,
-.numero-sorte .btn-numero-sorte:hover {
-    background-color: #F2CC30;
-    color: #3F171A;
+.contato .btn-contato:hover, .numero-sorte .btn-numero-sorte:hover {
+    background-color: #ffc600;
 }
 
 .numero-sorte div fieldset input {
@@ -832,7 +818,7 @@ footer h3 {
     right: 10px;
     width: 30px;
     height: 30px;
-    border: 1px solid #F2CC30;
+    border: 1px solid #FFF;
     display: none;
 }
 
@@ -841,13 +827,15 @@ footer h3 {
     width: 100%;
     height: 100%;
     text-align: center;
-    color: #F2CC30;
+    color: #011828;
+    background-color: #FFF;
 }
 
 .topo a:hover {
-    background-color: #F2CC30;
-    color: #000;
+    background-color: #011828;
+    color: #FFF;
     text-decoration: none;
+    transition: all 300ms;
 }
 
 .topo a i {
@@ -856,6 +844,7 @@ footer h3 {
 }
 
 /*Sorteio*/
+
 #sorteios article {
     width: 1170px;
     margin: 80px auto;
@@ -869,7 +858,7 @@ footer h3 {
     margin-bottom: 20px;
 }
 
-#sorteios article > div fieldset select {
+#sorteios article>div fieldset select {
     width: 40%;
     max-width: 240px;
     padding: 5px 12px;
@@ -884,7 +873,7 @@ footer h3 {
     vertical-align: top;
 }
 
-#sorteios article > div fieldset input {
+#sorteios article>div fieldset input {
     width: 100%;
     padding: 5px 12px;
     border: 1px solid #F2CC30;
@@ -897,11 +886,11 @@ footer h3 {
     vertical-align: top;
 }
 
-#sorteios article > div fieldset select option {
+#sorteios article>div fieldset select option {
     color: #000;
 }
 
-#sorteios article > div fieldset {
+#sorteios article>div fieldset {
     display: table;
     margin: auto;
     text-align: center;
@@ -974,130 +963,86 @@ footer h3 {
     #slide img {
         max-width: 90%;
     }
-
     .main-menu {
         display: none;
     }
-
     #menuresp {
         display: block;
     }
-
-    .menu,
-    .slide,
-    .marcas > article,
-    .periodo article,
-    .sorteio article,
-    .ganhadores article,
-    .linha,
-    .contato article,
-    .numero-sorte article,
-    #chance article,
-    #footer-result article,
-    #sorteios article {
+    .menu, .slide, .marcas>article, .periodo article, .sorteio article, .ganhadores article, .linha, .contato article, .numero-sorte article, #chance article, #footer-result article, #sorteios article {
         width: 96%;
     }
-
 }
 
 @media screen and (max-width: 768px) {
-
     #slide img {
         margin: 0 auto -150px auto;
     }
-
-    .marcas > article {
+    .marcas>article {
         margin: 120px auto 60px auto;
     }
-
     #participar ul li {
         width: 80%;
         display: table;
         margin: auto;
     }
-
     #participar ul li.next {
         width: 100%;
         margin: 40px 0;
     }
-
     #participar ul li.next img {
         margin: 0 auto;
         transform: rotate(90deg);
         width: 40px;
     }
-
     .sorteio-semana img {
         float: none;
         display: table;
         margin: 20px auto;
     }
-
-    .sorteio-nacional .box-info,
-    .sorteio-nacional .imagem-sorteio {
+    .sorteio-nacional .box-info, .sorteio-nacional .imagem-sorteio {
         width: 100%;
     }
-
     .sorteio-nacional .imagem-sorteio img {
         display: table;
         margin: auto;
     }
-
     .sorteio-semana .box-info ul {
         text-align: center;
     }
-
     .ganhadores ul {
         text-align: center;
     }
-
-    .periodo > article h1,
-    .ganhadores h1 {
+    .periodo>article h1, .ganhadores h1 {
         font-size: 30px;
     }
-
-    .periodo > article h2,
-    .sorteio-semana h2,
-    .sorteio-nacional h2,
-    .contato article h3,
-    .numero-sorte h3 {
+    .periodo>article h2, .sorteio-semana h2, .sorteio-nacional h2, .contato article h3, .numero-sorte h3 {
         font-size: 26px;
     }
-
-    #participar ul li span,
-    .sorteio-semana .box-info h3,
-    .sorteio-nacional .box-info h3 {
+    #participar ul li span, .sorteio-semana .box-info h3, .sorteio-nacional .box-info h3 {
         font-size: 20px;
     }
-
-    .sorteio-semana .box-info ul li,
-    .sorteio-nacional .box-info ul li {
+    .sorteio-semana .box-info ul li, .sorteio-nacional .box-info ul li {
         font-size: 16px;
     }
-
     .ganhadores ul li button.btn-ganhadores {
         font-size: 24px;
         padding: 10px 20px;
     }
-
     #chance article h3 {
         font-size: 26px;
         margin: 20px;
     }
-
     #footer-result article p {
         font-size: 12px;
         padding: 20px 5%;
     }
-
     #sorteios article h3 {
         font-size: 26px;
     }
-
     #sorteios .ganhador_sorteio {
         text-align: center;
     }
-
     #sorteios .ganhador_sorteio img {
         float: none;
         margin: 0 auto 20px auto;
@@ -1108,36 +1053,26 @@ footer h3 {
     #slide img {
         margin: 0 auto -120px auto;
     }
-
-    .marcas > article {
+    .marcas>article {
         margin: 90px auto 60px auto;
     }
-
-    .periodo > article,
-    .sorteio > article,
-    .ganhadores article,
-    .contato > fieldset {
+    .periodo>article, .sorteio>article, .ganhadores article, .contato>fieldset {
         margin: 40px auto;
     }
-
     #chance article h3 {
         font-size: 20px;
         margin: 10px;
     }
-
     .numero-sorte h3 {
         font-size: 20px;
     }
-
     #footer-result article p {
         font-size: 10px;
     }
-
-    #sorteios article > div fieldset select {
+    #sorteios article>div fieldset select {
         width: 100%;
         max-width: 100%;
     }
-
     #sorteios .ganhador_sorteio {
         max-width: 96%;
         width: 100%;
