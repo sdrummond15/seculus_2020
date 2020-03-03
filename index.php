@@ -110,7 +110,7 @@
                         <p><b>2</b> Fiat Argo</p>
                     </div>
                     <div class="img-sorteio">
-                        <img src="images/sorteio_nacional.png" alt="sorteio eletronicos" />
+                        <img src="images/2_argos.png" alt="sorteio 2 argos" />
                     </div>
                     <div class="box-premios-nacionais">
                         <div class="sorteio-mais">
@@ -118,19 +118,19 @@
                         </div>
                         <ul>
                             <li>
-                                <div class="img-premio-nacional" style="background-image: url('images/carro.png');"></div>
+                                <div class="img-premio-nacional" style="background-image: url('images/iphone.png');"></div>
                                 <span>2 Iphone 11</span>
                             </li>
                             <li>
-                                <div class="img-premio-nacional" style="background-image: url('images/carro.png');"></div>
+                                <div class="img-premio-nacional moto grey" style="background-image: url('images/moto_honda.png');"></div>
                                 <span>2 Motos Honda</span>
                             </li>
                             <li>
-                                <div class="img-premio-nacional" style="background-image: url('images/carro.png');"></div>
+                                <div class="img-premio-nacional notebook" style="background-image: url('images/notebook.png');"></div>
                                 <span>2 Notebooks</span>
                             </li>
                             <li>
-                                <div class="img-premio-nacional" style="background-image: url('images/carro.png');"></div>
+                                <div class="img-premio-nacional grey" style="background-image: url('images/caixa_jbl.png');"></div>
                                 <span>2 Caixas JBS Party</span>
                             </li>
                         </ul>
@@ -153,32 +153,26 @@
                     <p>DIAS 02, 16 E 30 DE MAIO</p>
                 </div>
                 <div class="container-sorteio">
-                    <div class="argo">
-                        <p><b>2</b> Fiat Argo</p>
-                    </div>
-                    <div class="img-sorteio">
-                        <img src="images/sorteio_nacional.png" alt="sorteio eletronicos" />
-                    </div>
                     <div class="box-premios-quinzenais">
                         <ul>
                             <li>
-                                <div class="img-premio-quinzenal" style="background-image: url('images/carro.png');"></div>
+                                <div class="img-premio-quinzenal grey" style="background-image: url('images/tablet.png');"></div>
                                 <span>30 Tablets</span>
                             </li>
                             <li>
-                                <div class="img-premio-quinzenal" style="background-image: url('images/carro.png');"></div>
+                                <div class="img-premio-quinzenal" style="background-image: url('images/smarttv_32.png');"></div>
                                 <span>30 SmartTVs 32"</span>
                             </li>
                             <li>
-                                <div class="img-premio-quinzenal" style="background-image: url('images/carro.png');"></div>
+                                <div class="img-premio-quinzenal grey" style="background-image: url('images/purificador_agua.png');"></div>
                                 <span>30 Purificadores de água</span>
                             </li>
                             <li>
-                                <div class="img-premio-quinzenal" style="background-image: url('images/carro.png');"></div>
+                                <div class="img-premio-quinzenal" style="background-image: url('images/smartphone.png');"></div>
                                 <span>30 Smartphones</span>
                             </li>
                             <li>
-                                <div class="img-premio-quinzenal" style="background-image: url('images/carro.png');"></div>
+                                <div class="img-premio-quinzenal grey" style="background-image: url('images/aspiradores_po_robo.png');"></div>
                                 <span>30 Aspiradores de pó robô</span>
                             </li>
                         </ul>
