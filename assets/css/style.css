@@ -313,6 +313,7 @@ a:hover {
 .img-sorteio img {
     margin: auto;
     display: table;
+    max-width: 100%;
 }
 
 .box-premios-nacionais {
@@ -809,11 +810,10 @@ footer h3 {
 }
 
 .num {
-    background-color: transparent;
-    border: 1px solid #F2CC30;
+    background-color: #FFF;
     border-radius: 5px;
     font-size: 15px;
-    color: #F2CC30;
+    color: #000;
     font-family: Arial;
     max-width: 80%;
     margin: 40px auto;
@@ -822,6 +822,7 @@ footer h3 {
 
 .num h3 {
     font-size: 24px;
+    color: #262262;
 }
 
 .topo {
@@ -972,6 +973,21 @@ footer h3 {
 }
 
 @media screen and (max-width: 1200px) {
+	.box-premios-nacionais ul li {
+	    width: calc(24% + 3%);
+	    margin: 0px -3.2%;
+	}
+	.box-premios-quinzenais ul li .img-premio-quinzenal {
+		height: calc(100% - 46px);
+	}
+
+	.box-premios-quinzenais ul li {
+	    width: calc(19% + 5%);
+	    margin: 0px -2.9%;
+	}
+	.box-premios-quinzenais ul li span {
+	    font-size: 16px;
+	}
     #slide img {
         max-width: 90%;
     }
@@ -984,8 +1000,64 @@ footer h3 {
     .menu, .slide, .marcas>article, .periodo article, .sorteio article, .ganhadores article, .linha, .contato article, .numero-sorte article, #chance article, #footer-result article, #sorteios article {
         width: 96%;
     }
+
+    .data-sorteio-1 p, 
+    .data-sorteio-2 p
+    .data-sorteio-quinzenal-1 p, 
+    .data-sorteio-quinzenal-2 p, 
+    .data-sorteio-quinzenal-3 p{
+    	font-size: 30px;
+    }
 }
 
+@media screen and (max-width: 1000px) {
+	.argo {
+	    top: 11%;
+	}
+
+	.box-premios-nacionais .sorteio-mais{
+	    border-radius: 0;
+	    width: 91%;
+	    position: relative;
+	    float: right;
+	    text-align: center;
+	}
+
+	.box-premios-nacionais ul {
+	    list-style: none;
+	    padding: 0;
+	    margin: 0 0 30px 5%;
+	    display: table;
+	    width: 100%;
+	}
+
+	.box-premios-nacionais ul li {
+	    width: calc(24% + 6%);
+	    margin: 0px -3.6%;
+	}
+
+	.data-sorteio-1 p, 
+    .data-sorteio-2 p,
+    .data-sorteio-quinzenal-1 p, 
+    .data-sorteio-quinzenal-2 p, 
+    .data-sorteio-quinzenal-3 p{
+    	font-size: 20px;
+    }
+
+    .box-premios-quinzenais ul {
+	    margin: 130px 0 30px 15%;
+	}
+
+    .box-premios-quinzenais ul li {
+	    width: calc(35% + -1%);
+	    margin: 0px -4%;
+	    margin-bottom: 5px;
+	}
+
+	.box-premios-quinzenais ul li:nth-child(4) {
+		margin-left: 5%
+	}
+}
 @media screen and (max-width: 768px) {
     #slide img {
         margin: 0 auto -150px auto;

@@ -39,22 +39,26 @@ if ($conn->connect_error) {
         $img = 'images/';
         if(strtoupper($row["premium"]) == 'SMARTPHONE')
             $img .= 'smartphone.png';
-        if(strtoupper($row["premium"]) == 'SMARTV')
-            $img .= 'smartv.png';
-        if(strtoupper($row["premium"]) == 'CAIXA DE SOM')
-            $img .= 'caixa_som.png';
-        if(strtoupper($row["premium"]) == 'RENEGADE')
-            $img .= 'renegade.png';
+        if(strtoupper($row["premium"]) == 'SMARTV32')
+            $img .= 'smarttv_32.png';
+        if(strtoupper($row["premium"]) == 'CAIXA DE SOM JBL')
+            $img .= 'caixa_jbl.png';
+        if(strtoupper($row["premium"]) == 'ARGO')
+            $img .= 'argo.png';
 	    if(strtoupper($row["premium"]) == 'MOTO')
             $img .= 'moto.png';
     	if(strtoupper($row["premium"]) == 'IPAD')
             $img .= 'ipad.png';
     	if(strtoupper($row["premium"]) == 'IPHONE')
             $img .= 'iphone.png';
-	    if(strtoupper($row["premium"]) == 'VALE VIAGEM')
-            $img .= 'viagem.png';
 	    if(strtoupper($row["premium"]) == 'CARRO')
-            $img .= 'carro.png';
+            $img .= 'argo.png';
+	    if(strtoupper($row["premium"]) == 'TABLET')
+            $img .= 'tablet.png';
+	    if(strtoupper($row["premium"]) == 'ASPIRADOR DE PO ROBO')
+            $img .= 'aspiradores_po_robo.png';
+	    if(strtoupper($row["premium"]) == 'PURIFICADOR DE ÁGUA')
+            $img .= 'purificador_agua.png';
 
         $result .= '<div class="ganhador_sorteio">';
         $result .= '<h3>' . utf8_encode($row["premium"]) . '</h3>';
